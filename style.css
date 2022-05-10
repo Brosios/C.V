@@ -1,0 +1,121 @@
+/*
+them Name:HTML5;
+Date: March 2022;
+Discription Basic HTML5;
+Author : Brosios
+*/
+html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 4vh;
+}
+body {
+    background-image: url("/img/hatshing.png");
+    background-position: bottom;
+    background-blend-mode: saturation;
+    background-color: rgb(5, 10, 70);
+    color: white;
+    line-height: 1.5;
+    word-spacing: 5px;
+    word-break: break-word;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+.body {
+  clear: both;
+}
+/*////////////////////////Main Header////////////////////////////////*/
+.intro img {
+  filter: drop-shadow(black 2px 4px 6px);
+  height: 30vh;
+  position: relative;
+  top: 18px;
+  right: -2%;
+  border-radius: 50%;
+}
+.heading, .bro {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Jomhuria', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Whisper', cursive;
+  position: relative;
+  font-size: 11vh;
+}
+/* .mainheader nav {
+  background-color: #e74c3c;
+  height: 38px;
+  border-radius: 5px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 5px;
+  position: relative;
+  display: flex;
+  left: 111px;
+  width: fit-content;
+} */
+/* .mainheader nav ul {
+  text-align: center;
+  list-style: none;
+  margin: 0 auto;
+}
+.mainheader nav ul li {
+  display: inline;
+}
+.mainheader a:link,
+.mainheader a:visited {
+  color: white;
+  padding: 10px 40px;
+  display: inline-block;
+  height: 20px;
+}
+.mainheader a:hover,
+.mainheader a:active {
+  color: white;
+  background-color: #f58233;
+  text-shadow: none;
+} */
+
+h2{
+  position: relative;
+  top: 5px;
+  color: #f60000;
+}
+/*////////////////////////The Side Bar////////////////////////////////*/
+span {
+  color: red;
+}
+.lan {
+  position: relative;
+  bottom: 30px; 
+}
+.icons {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contactinfo {
+  padding: 2px 38px 2px 30px;
+  position: relative;
+  display: flex;
+  color: chocolate;
+  justify-content: space-evenly;
+}
+i {
+	font-size: 50px;
+	margin: 30px;
+}
+i:hover, a:hover {
+	color: chocolate;
+}
+a {
+	color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.mainContent, .thesidebar, .lan, .pp {
+  background-color: rgba(4, 4, 83, 0.616);
+  max-width: 50%;
+  margin: auto;
+  opacity: 0.7;
+  position: relative;
+}
