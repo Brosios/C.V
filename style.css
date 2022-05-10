@@ -1,7 +1,5 @@
 /*
-them Name:HTML5;
-Date: March 2022;
-Discription Basic HTML5;
+Date: May 2022;
 Author : Brosios
 */
 html {
@@ -11,7 +9,7 @@ html {
   font-size: 4vh;
 }
 body {
-    background-image: url("/img/hatshing.png");
+    background: url("/img/hatshing.png");
     background-position: bottom;
     background-blend-mode: saturation;
     background-color: rgb(5, 10, 70);
