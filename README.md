@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CV
 * Finally i finished to work on My CV, it took really a lot of time to be done but the most important that it's done and what makes it good that i was learning...Brosios
 
@@ -13,3 +14,9 @@ ___
 
 > and like each time Made with pleasure
 
+=======
+# C.V
+My C.V
+
+https://brosios.github.io/C.V/
+>>>>>>> fb474499bcdc05cb16af25131670ea681f210513
