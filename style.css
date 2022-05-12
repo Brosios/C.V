@@ -5,8 +5,8 @@ Author : Brosios
 body {
   text-align: center;
   background: url("img/black.jpg");
-  background-position: ;
-  background-blend-mode: luminosity;
+  background-position: unset ;
+  background-blend-mode:  difference;
   background-color: rgb(5, 10, 70);
   background-repeat: round;
   color: white;
