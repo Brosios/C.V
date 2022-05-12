@@ -2,118 +2,105 @@
 Date: May 2022;
 Author : Brosios
 */
-html {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-size: 4vh;
-}
 body {
-    background: url("/img/hatshing.png");
-    background-position: bottom;
-    background-blend-mode: saturation;
-    background-color: rgb(5, 10, 70);
-    color: white;
-    line-height: 1.5;
-    word-spacing: 5px;
-    word-break: break-word;
-    font-family: 'Raleway', sans-serif;
-    text-transform: capitalize;
+  text-align: center;
+  background: url("img/black.jpg");
+  background-position: ;
+  background-blend-mode: luminosity;
+  background-color: rgb(5, 10, 70);
+  background-repeat: round;
+  color: white;
+  line-height: 1.3;
+  word-break: break-word;
+  word-spacing: 1px;
+  letter-spacing: 1.5px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: capitalize;
+  margin: auto;
+  padding: 20px;
+  width: 60%;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 .body {
   clear: both;
 }
-/*////////////////////////Main Header////////////////////////////////*/
+/*////////////////////////////////////////////////////////*/
 .intro img {
-  filter: drop-shadow(black 2px 4px 6px);
-  height: 30vh;
-  position: relative;
-  top: 18px;
-  right: -2%;
+  filter: drop-shadow(black 2px 2px 2px);
+  height: 180px;
+  opacity: 0.7;
   border-radius: 50%;
 }
+/*////////////////////////////////////////////////////////*/
 .heading, .bro {
   font-family: 'Cairo', sans-serif;
   font-family: 'Jomhuria', cursive;
   font-family: 'Pacifico', cursive;
   font-family: 'Sacramento', cursive;
   font-family: 'Whisper', cursive;
-  position: relative;
-  font-size: 11vh;
+  font-size: 50px;
 }
-/* .mainheader nav {
-  background-color: #e74c3c;
-  height: 38px;
-  border-radius: 5px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 5px;
-  position: relative;
-  display: flex;
-  left: 111px;
-  width: fit-content;
-} */
-/* .mainheader nav ul {
-  text-align: center;
-  list-style: none;
-  margin: 0 auto;
+/*////////////////////////////////////////////////////////*/
+article {
+  padding: 10px;
 }
-.mainheader nav ul li {
-  display: inline;
-}
-.mainheader a:link,
-.mainheader a:visited {
-  color: white;
-  padding: 10px 40px;
-  display: inline-block;
-  height: 20px;
-}
-.mainheader a:hover,
-.mainheader a:active {
-  color: white;
-  background-color: #f58233;
-  text-shadow: none;
-} */
-
-h2{
+h2 {
   position: relative;
   top: 5px;
   color: #f60000;
+  font-size: 20px;
 }
-/*////////////////////////The Side Bar////////////////////////////////*/
+/*////////////////////////////////////////////////////////*/
+aside {
+  position: relative;
+  bottom: 12px;
+  margin-bottom: 5px;
+}
 span {
-  color: red;
+  color: rgb(245, 244, 244);
 }
 .lan {
-  position: relative;
-  bottom: 30px; 
+  bottom: 10px; 
 }
 .icons {
-  position: relative;
-  display: flex;
-  justify-content: space-evenly;
-}
-.contactinfo {
-  padding: 2px 38px 2px 30px;
-  position: relative;
-  display: flex;
-  color: chocolate;
-  justify-content: space-evenly;
-}
-i {
-	font-size: 50px;
-	margin: 30px;
-}
-i:hover, a:hover {
-	color: chocolate;
-}
-a {
-	color: rgb(255, 0, 0);
-    text-decoration: none;
+  display: inline-block;
 }
 .mainContent, .thesidebar, .lan, .pp {
-  background-color: rgba(4, 4, 83, 0.616);
-  max-width: 50%;
+  background-color: rgb(3 3 42 / 27%);
+  max-width: 90%;
   margin: auto;
   opacity: 0.7;
   position: relative;
+}
+.contactinfo {
+  position: relative;
+  top: 32px;
+  color: chocolate;
+  font-size: 12px;
+}
+i {
+  position: relative;
+  bottom: 18px;
+  color: chocolate;
+  font-size: 38px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+i:hover, a:hover {
+	color: rgb(255, 255, 255);
+}
+a {
+  color: #ff0000;
+    text-decoration: none;
+}
+audio {
+  mix-blend-mode: overlay;
+  position: relative;
+  width: 230px;
+  top: 60px;
+}
+@media only screen and (max-width: 768px)
+body {
+    width: 95%;
 }
