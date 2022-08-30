@@ -82,11 +82,11 @@ span {
 }
 /*////////////////////////////////////////////////////////*/
 .contact {
-  background-color: rgb(3 3 42 / 27%);
+  background-color: rgba(3, 3, 42, 0.27);
   position: relative;
-  left: 15px;
-  bottom: 21px;
-  width: 473px;
+  left: 25px;
+  bottom: 25px;
+  width: 650px;
 }
 /*////////////////////////////////////////////////////////*/
 .contact .icons {
@@ -99,9 +99,8 @@ span {
 .contactinfo {
   position: relative;
   display: inline-flex;
-  top: 40px;
+  top: 50px;
   color: chocolate;
-  font-size: 12px;
 }
 /*////////////////////////////////////////////////////////*/
 .contactinfo img {
@@ -114,7 +113,7 @@ span {
 .contactinfo p {
   position: relative;
   top: 5px;
-  font-size: 11px;
+  font-size: 14px;
 }
 /*////////////////////////////////////////////////////////*/
 i {
@@ -143,8 +142,9 @@ body {
 /*////////////////////////////////////////////////////////*/
 .footer {
   background-color: rgb(3 3 42 / 27%);
-  width: 473px;
+  width: 650px;
   position: relative;
-  left: 15px;
+  left: 25px;
+  /* bottom: 82px; */
 }
 /*////////////////////////////////////////////////////////*/
