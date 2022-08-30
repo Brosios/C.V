@@ -20,6 +20,8 @@ body {
   padding: 20px;
   width: 60%;
   margin-top: 0px;
+user-select: none;
+
 }
 /*////////////////////////////////////////////////////////*/
 .body {
