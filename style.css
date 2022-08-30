@@ -20,8 +20,8 @@ body {
   padding: 20px;
   width: 60%;
   margin-top: 0px;
-
 }
+/*////////////////////////////////////////////////////////*/
 .body {
   clear: both;
 }
@@ -83,6 +83,10 @@ span {
 /*////////////////////////////////////////////////////////*/
 .contact {
   background-color: rgb(3 3 42 / 27%);
+  position: relative;
+  left: 15px;
+  bottom: 21px;
+  width: 473px;
 }
 /*////////////////////////////////////////////////////////*/
 .contact .icons {
@@ -95,7 +99,7 @@ span {
 .contactinfo {
   position: relative;
   display: inline-flex;
-  top: 32px;
+  top: 40px;
   color: chocolate;
   font-size: 12px;
 }
@@ -110,6 +114,7 @@ span {
 .contactinfo p {
   position: relative;
   top: 5px;
+  font-size: 11px;
 }
 /*////////////////////////////////////////////////////////*/
 i {
@@ -136,9 +141,10 @@ body {
     width: 95%;
 }
 /*////////////////////////////////////////////////////////*/
-
-
 .footer {
   background-color: rgb(3 3 42 / 27%);
-
+  width: 473px;
+  position: relative;
+  left: 15px;
 }
+/*////////////////////////////////////////////////////////*/
