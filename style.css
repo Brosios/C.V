@@ -23,7 +23,12 @@ body {
   padding: 20px;
   width: 800px;
   margin-top: 0px;
+<<<<<<< HEAD
   user-select: none;
+=======
+user-select: none;
+
+>>>>>>> e32c8e67143672315316f9d9cf4efa6d5676761b
 }
 /*////////////////////////////////////////////////////////*/
 .body {
